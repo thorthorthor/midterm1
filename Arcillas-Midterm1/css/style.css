@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img{
+      position: relative;
+    float: left;
+    width:  200px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.shity{
+font-family: 'Pacifico', cursive;
+}
+.ggg{
+  
+       box-sizing: content-box;
+ 
+}
+li{
+    margin: 10px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+     width: 20%;
+     height: 40vh;
+}
+
+
+
+header{
+    font-family: 'Pacifico', cursive;
+    background: #6a24a7;
+    color: white;
+    padding: 8px 20px;
+  
+}
+
+
+#movie-list{
+    list-style: none;
+    padding: 0;
+    margin-left: 200px;
+   
+}
+
+#pangulo{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+
